@@ -130,7 +130,6 @@ void ofApp::reset(){
     }
 
 
-
     floor.set(ms,ms,100,100,OF_PRIMITIVE_TRIANGLES);
 
     for (std::vector<MyWall>::iterator it = vec.begin() ; it != vec.end(); ++it) {
